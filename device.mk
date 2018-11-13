@@ -16,6 +16,9 @@
 # Inherit from msm8937-common
 $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # APN Config for Stock
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/stockapn/apns-conf.xml:system/etc/stockapn/apns-conf.xml
