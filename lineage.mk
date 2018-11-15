@@ -28,5 +28,5 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="motorola/owens/owens:7.1.1/NPR26.58-25/27:user/release-keys" \
     PRIVATE_BUILD_DESC="owens-user 7.1.1 NPR26.58-25 27 release-keys" \
-    PRODUCT_MODEL="Moto E (4) Plus" \
-    PRODUCT_NAME="owens"
+    PRODUCT_NAME="Moto E (4) Plus" \
+    PRODUCT_MODEL="owens"
