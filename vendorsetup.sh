@@ -1,1 +1,1 @@
-add_lunch_combo lineage_owens-userdebug
+add_lunch_combo XOS_owens-userdebug
