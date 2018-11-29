@@ -14,9 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/motorola/msm8937-common/BoardConfigVendor.mk
--include vendor/motorola/owens/BoardConfigVendor.mk
--include vendor/motorola/qcom318-32/BoardConfigVendor.mk
+include vendor/motorola/owens/BoardConfigVendor.mk
 
 DEVICE_PATH := device/motorola/owens
 
@@ -50,13 +48,10 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_BOARD_PLATFORM := msm8937
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno505
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8937
 TARGET_KERNEL_CONFIG := owens_defconfig
-BLISS_KRAIT := true
-BLISS_PIPE := true
-BLISS_DEVELOPER := bcrichster
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-smd"
