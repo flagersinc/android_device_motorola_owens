@@ -2,7 +2,7 @@ Condensed Device Tree for Moto E4 Plus Qualcomm (owens) XT1775/XT1776
 ================================================
 
 The Motorola Moto E4 Plus (codenamed _"owens"_) is a low-range smartphone from
-Motorola Mobility. It was announced in June 2017.
+Motorola Mobility. It was announced in June 2017. 
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -20,3 +20,4 @@ Camera  | 13MP, autofocus, flash LED
 Copyright 2017 - The LineageOS Project.
 
 ![Moto E4 Plus](https://www.motorola.com/sites/default/files/library/storage/products/smartphones/moto-e4-plus-NA-1000.png "Moto E4 Plus")
+
